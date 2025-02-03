@@ -10,12 +10,12 @@ The objective of this project is to demonstrate how to read a JSON file in text 
 Para o JS utilizamos o ``export`` para exportar o conteúdo do jsonData como um módulo. Neste caso, usamos a sintaxe da ECMAScript Modules (ESM).
 
 ```javascript
-// file.json
+// file.js
 export const jsonData = [
     ...
 ];
 
-// read-file.json
+// read-file.js
 import { jsonData } from "./file.js";
 ```
 
